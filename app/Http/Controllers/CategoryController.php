@@ -171,7 +171,7 @@ class CategoryController extends Controller
         $category->save();
 
         return response()->json([
-            'message' => 'Category activity change successfully',
+            'message' => 'Category activity status change successfully',
             'category' => $category
         ]);
     }
